@@ -45,7 +45,6 @@ const MainSearch = () => {
 
     return () => clearTimeout(debounceTimeout);
   }, [query]);
-  f;
 
   return (
     <Container>

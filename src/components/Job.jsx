@@ -24,7 +24,12 @@ const Job = ({ data }) => {
         </a>
       </Col>
       <Col xs={3}>
-        <Button variant="outline-primary" onClick={handleAddToFavourites}>
+        <Button
+          variant="outline-primary"
+          onClick={handleAddToFavourites}
+          className="btn-hover-active-focus"
+          size="lg"
+        >
           Aggiungi ai Preferiti
         </Button>
       </Col>
